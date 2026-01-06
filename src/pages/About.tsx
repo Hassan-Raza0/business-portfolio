@@ -1,6 +1,7 @@
 import { Briefcase, Globe, Award, Target, Package, Users, User, TrendingUp } from 'lucide-react';
 import Skills from '../components/Skills';
 import Certifications from '../components/Certifications';
+import HadiImage from './Hadi.jpeg';
 
 const About = () => {
   const milestones = [
@@ -70,14 +71,12 @@ const About = () => {
             {/* Photo Placeholder */}
             <div className="order-2 lg:order-1">
               <div className="relative">
-                <div className="aspect-square rounded-3xl overflow-hidden bg-white dark:bg-gray-900 shadow-lg border border-gray-200 dark:border-gray-800 p-8">
-                  <div className="w-full h-full gradient-bg rounded-2xl flex items-center justify-center">
-                    <div className="text-center">
-                      <Package size={120} className="text-white/30 mx-auto mb-4" />
-                      <p className="text-white/50 text-lg font-semibold">Muhammad Hadi</p>
-                      <p className="text-white/30 text-sm mt-2">Founder, Fix n Wholesale</p>
-                    </div>
-                  </div>
+                <div className="aspect-square rounded-3xl overflow-hidden bg-white dark:bg-gray-900 shadow-lg border border-gray-200 dark:border-gray-800">
+                  <img
+                    src={HadiImage}
+                    alt="Muhammad Hadi"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 {/* Decorative elements */}
                 <div className="absolute -top-6 -right-6 w-24 h-24 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-2xl opacity-20 blur-xl"></div>
