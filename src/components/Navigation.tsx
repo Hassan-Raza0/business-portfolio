@@ -46,7 +46,7 @@ const Navigation = () => {
             </div>
             <div className="flex flex-col">
               <span className="text-2xl font-black text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                Muhammad <span className="gradient-text">Hadi</span>
+                Mohamed <span className="gradient-text">Hadi</span>
               </span>
               <span className="text-xs text-gray-600 dark:text-gray-400 font-medium">
                 Founder · Fix n Wholesale · B2B Solutions
